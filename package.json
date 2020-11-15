@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AlfonsoJames/RMG#readme",
   "dependencies": {
-    "index.js": "0.0.3"
+    "index.js": "0.0.3",
+    "inquirer": "^7.3.3"
   }
 }
