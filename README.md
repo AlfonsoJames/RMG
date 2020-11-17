@@ -1,9 +1,9 @@
 
-# TEST
+# The Amazing Phantastik README Generator
 
 ## Description
 
-    TEST
+    This node.js app generates README.md files in markdown after receiving input from prompts in command-line.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ npm i
 
 ## Usage
 
-TEST
+$ node rmg.js
 
 ## License
 
@@ -33,7 +33,7 @@ None
 
 ## Contributing
 
-TEST
+No contibution needed, however feel free to use or adapt your liking.
 
 ## Tests
 
@@ -46,6 +46,6 @@ npm test
 ## Questions
 
 For questions Contact:
-Github: [@TEST](https://github.com/TEST)
+Github: [@AlfonsoJames](https://github.com/AlfonsoJames)
 
-Email: TEST
+Email: ajaeguy@gmail.com
