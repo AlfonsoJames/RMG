@@ -7,6 +7,8 @@ function markDown(input) {
 
     ${input.description}
 
+${input.badge}
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -19,14 +21,17 @@ function markDown(input) {
 
 ## Installation
 
-To install necessarry dependencies, run the following command:\n
+\n
 \`
 ${input.install}
 \`
 
 ## Usage
 
+\n
+\`
 ${input.usage}
+\`
 
 ## License
 
@@ -38,7 +43,7 @@ ${input.contribute}
 
 ## Tests
 
-To run tests, run the following command:\n
+\n
 \`
 ${input.tests}
 \`
@@ -51,4 +56,4 @@ Email: ${input.email}
 `
   };
   
-  exports.markDown = markDown;
+exports.markDown = markDown;

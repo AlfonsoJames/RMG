@@ -1,3 +1,5 @@
+// function rmg(rmg) {
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const template = require('./assets/markDown');
@@ -28,7 +30,7 @@ const prompts = [
     type: 'list',
     name: 'license',
     message: 'Select a license:',
-    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+    choices: ['None','Apache 2.0 License','Educational Community License v2.0','Creative Commons Zero v1.0 Universal','Do What The F*ck You Want To Public License','GPL 3.0','MIT']
   },
   {
     type: 'input',
@@ -53,6 +55,11 @@ const prompts = [
     message: 'Explain how developers can contribute:'
   }
 ];
+ // stinking badges
+ function badge(input) {
+    let badgeType = input.license.split(" ").join("");
+    input.badge = `![License](https://img.shields.io/badge/License-${badgeType}-blue.svg)`;
+};
 
 //
 function init() {
@@ -64,8 +71,6 @@ function init() {
 };
 init();
 
-// stinking badges
-function badge(input) {
-  let badgeType = input.license.split(" ").join("");
-  input.badge = `![License](https://img.shields.io/badge/License-${badgeType}-blue.svg)`;
-}
+
+// }
+// exports.rmg = rmg;

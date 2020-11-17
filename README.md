@@ -5,6 +5,8 @@
 
     This node.js app generates README.md files in markdown after receiving input from prompts in command-line.
 
+![License](https://img.shields.io/badge/License-EducationalCommunityLicensev2.0-blue.svg)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -17,7 +19,7 @@
 
 ## Installation
 
-To install necessarry dependencies, run the following command:
+
 
 `
 npm i
@@ -25,11 +27,15 @@ npm i
 
 ## Usage
 
+
+
+`
 $ node rmg.js
+`
 
 ## License
 
-None
+Educational Community License v2.0
 
 ## Contributing
 
@@ -37,7 +43,7 @@ No contibution needed, however feel free to use or adapt your liking.
 
 ## Tests
 
-To run tests, run the following command:
+
 
 `
 npm test
